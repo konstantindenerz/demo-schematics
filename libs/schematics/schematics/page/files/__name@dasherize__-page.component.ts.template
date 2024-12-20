@@ -1,0 +1,11 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+
+@Component({
+  selector: 'labs-<%= dasherize(name) %>-page',
+  template: ``,
+  standalone: true,
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class <%= classify(name) %>PageComponent {
+  // awesome
+}

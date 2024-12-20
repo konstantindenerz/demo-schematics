@@ -1,0 +1,10 @@
+{
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "labs-page": {
+      "description": "Add a page feature to the project",
+      "factory": "./page/index#generate",
+      "schema": "./page/schema.json"
+    }
+  }
+}
